@@ -1,0 +1,69 @@
+body{
+  background-color: #ffff99;
+}
+/* Style for container centers the  page and  sets the  element  witdth */
+#container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ /* Style for header specifies top and bottom margins, background color, rounder border, shadow,  and alignment */
+header {
+
+    /*-------------------------------------*/
+    margin-top: 10px;/* khoảng cách giữa đỉnh trang */
+    margin-bottom: 20px; /* khoảng cách giữa 2 bên */
+    background-color: #ffffff;
+    border-radius: 10px; /* bo góc*/
+    box-shadow: 12px 12px 12px #404040; /*đổ bóng cho hình*/
+    text-align: center;
+
+}
+/* Style for nav specifies text properties, padding, margins, and borders */
+nav {
+    font-family: Georgia, "Times New Roman", serif; /* font chữ */
+    font-size: 1.25em; /* kích thước chữ */
+    font-weight: bold; /* kiểu chữ in đậm*/
+    text-align: center; /* text-align là dạng sắp xếp các chữ theo dạng ngang và ở chung tâm*/
+    padding: 15px;
+    margin-top: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid  #ffffff;
+}
+/* style for main specifies a block display, text  properties,  margins, padding, rounded border, and shadow */
+main{
+    display: block;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 12px 12px 12px #404040;
+}
+
+/*Style for footer specities font size, text alignment, and top margin */
+footer{
+    font-size: .70em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.equip {
+  float: left;
+  padding-right: 20px;
+}
+ul{
+  margin-bottom: 50px;
+  list-style-position: inside;
+}
+dt{
+  font-weight: bold;
+}
+dd{
+  padding-bottom: 20px;
+}
